@@ -1,3 +1,6 @@
+Quick start
+=====
+
 Clone the github repo to your computer
 
     git clone https://github.com/davidjurgens/potato.git
