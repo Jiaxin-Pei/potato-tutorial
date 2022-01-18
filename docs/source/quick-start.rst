@@ -13,5 +13,4 @@ To run a simple check-box style annotation on text data, run
 .. code-block:: console
     python3 potato/flask_server.py config/examples/simple-check-box.yaml -p 8000
         
-This will launch the webserver on port 8000 which can be accessed at `http://localhost:8000
-<http://localhost:8000>`_. 
+This will launch the webserver on port 8000 which can be accessed at `http://localhost:8000`. 
