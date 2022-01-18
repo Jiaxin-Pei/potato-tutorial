@@ -1,4 +1,4 @@
-🥔Potato, the **Po**\ rtable **t**\ ext **a**\ nnotation **to**\ ol
+🥔Potato, the **Po**\ rtable **t**\ ext **a**\ nnotation **to**\ ol for everyone
 ===================================
 
 **Potato** is a **fully free** data annotation tool supporting a wide range of features throughout your 
