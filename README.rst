@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
+Official Documentation for 🥔Potato, the portable text annotation tool.
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://potato-annotation-tutorial.readthedocs.io/
