@@ -15,4 +15,8 @@ Contents
 .. toctree::
    quick-start
    usage
-   api
+   schemas_and_templates
+   user_and_collaboration
+   productivity
+   annotaator_stats
+   open-sourcing
