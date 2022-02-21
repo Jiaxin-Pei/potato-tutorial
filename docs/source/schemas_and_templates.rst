@@ -1,4 +1,4 @@
-Supported schemas and templates
+Schemas and Templates
 =====
 
 Schemas
