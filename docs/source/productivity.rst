@@ -20,7 +20,7 @@ specifying the key that corresponds to it.
 
 For example,
 
-.. code-block:: yaml
+.. code-block:: YAML
     "annotation_schemes": [
         {
             "annotation_type": "multiselect",
@@ -68,7 +68,7 @@ Active learning can be enabled and configured by providing the
 :code:`active_learning_config` key to the configuration file. See below for a
 basic example of the active learning configuration.
 
-.. code-block:: yaml
+.. code-block:: YAML
     # This controls whether Potato will actively re-order unlabeled instances
     # during annotation after a certain number of items are annotated to
     # prioritize those that a basic classifier model is most uncertain about. If
