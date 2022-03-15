@@ -15,9 +15,13 @@ After creating an account, you can log in with the email and password used in
 the account creation step.
 
 
-Editing user list in config file
-----------------
-
-
 Collaboration under local network
 ----------------
+If you do not want to expose the annotation app globally, Potato serves to the
+local area network by default. You can access the Potato instance through the
+local IP address of the server.
+
+On Linux machines, you can determine the local IP by running
+
+.. code:: bash
+   hostname -I
