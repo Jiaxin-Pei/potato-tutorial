@@ -20,7 +20,8 @@ specifying the key that corresponds to it.
 
 For example,
 
-.. code-block:: YAML
+.. code-block:: yaml
+
     "annotation_schemes": [
         {
             "annotation_type": "multiselect",
@@ -47,12 +48,13 @@ process. To enable dynamic highlighting, just provide a path to a tab-separated
 values file of keywords. The keywords file should have this format:
 
 .. code-block::
+
    Word	Label	Schema
    good*	Negative	Sentiment
    bad*	Positive	Sentiment
    terrible	Negative	Sentiment
 
-Where the values in the Word column can be any valid regex, the value in the
+Where the values in the Word column can be any valid regex, the value in the i p
 Label column corresponds to the selection label and the value in the Schema
 column corresponds to the annotation schema the label is listed under. A single
 keywords file can support multiple schemas.
@@ -68,7 +70,8 @@ Active learning can be enabled and configured by providing the
 :code:`active_learning_config` key to the configuration file. See below for a
 basic example of the active learning configuration.
 
-.. code-block:: YAML
+.. code-block:: yaml
+
     # This controls whether Potato will actively re-order unlabeled instances
     # during annotation after a certain number of items are annotated to
     # prioritize those that a basic classifier model is most uncertain about. If

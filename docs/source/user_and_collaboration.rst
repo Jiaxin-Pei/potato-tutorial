@@ -24,4 +24,5 @@ local IP address of the server.
 On Linux machines, you can determine the local IP by running
 
 .. code:: bash
+
    hostname -I
