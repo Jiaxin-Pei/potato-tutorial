@@ -55,7 +55,14 @@ And that's it! You can go ahead and get started labeling data in one of two ways
 
 **Option 1:** Follow the prompts given above to define a YAML file that specifies the data sources, server configuration, annotation schemes, and any custom visualizations (`examples <https://github.com/davidjurgens/potato/tree/master/config/examples>`_) and then launch potato.
 
+``python3 potato/flask_server.py config/examples/simple-check-box.yaml -p 8000``
+
 **Option 2:** Launch potato without a YAML. In this case, the server will have you follow a series of prompts about the task and automatically generate a YAML file for you. A YAML file is then passed to the server on the command line to launch the server for annotation.
+
+``python3 potato/flask_server.py -p 8000``
+
+
+This will launch the webserver on port 8000 which can be accessed at http://localhost:8000. You can `create an account <https://potato-annotation-tutorial.readthedocs.io/en/latest/user_and_collaboration.html>` and start labeling data. Clicking "Submit" will autoadvance to the next instance and you can navigate between items using the arrow keys.
 
 
 
