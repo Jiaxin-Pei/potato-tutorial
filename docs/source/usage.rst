@@ -62,7 +62,7 @@ And that's it! You can go ahead and get started labeling data in one of two ways
 ``python3 potato/flask_server.py -p 8000``
 
 
-This will launch the webserver on port 8000 which can be accessed at http://localhost:8000. You can `create an account <https://potato-annotation-tutorial.readthedocs.io/en/latest/user_and_collaboration.html>` and start labeling data. Clicking "Submit" will autoadvance to the next instance and you can navigate between items using the arrow keys.
+This will launch the webserver on port 8000 which can be accessed at http://localhost:8000. You can `create an account <https://potato-annotation-tutorial.readthedocs.io/en/latest/user_and_collaboration.html>`_ and start labeling data. Clicking "Submit" will autoadvance to the next instance and you can navigate between items using the arrow keys.
 
 
 
