@@ -15,6 +15,7 @@ Contents
 .. toctree::
    quick-start
    usage
+   data_format
    schemas_and_templates
    user_and_collaboration
    productivity
