@@ -33,9 +33,13 @@ The schema includes:
 
 * Questions: you should have one or more questions for annotators to answer
 
-  * Content:
-  * Annotation Type: multiple-selection (checkboxes), ``radio`` (single selection), best-worst scaling, Likert scale, ``text`` (free-form)
-  * Other Features: ``required``, 
+  * Content: long text to display on the front end + short text for the header of the response file 
+  * Annotation Type: ``multiselect`` (checkboxes), ``radio`` (single selection), ``text`` (free-form)
+  * Other Features: 
+  
+    * ``required``
+    * ``horizontal`` 
+    * ``has_free_response`` (whether to include at the end of multiselect or radio question)
   
 * Answers: except for ``text`` types, each question should have one or more answers
 
