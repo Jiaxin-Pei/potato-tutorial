@@ -16,21 +16,31 @@ Potato has a Python-based server architecture that can be run locally or hosted 
 Prepare your input data
 ------------
 
-Upload one or more files containing documents to be annotated in the ``data`` folder. We support multiple formats of raw data files, including: csv, tsv, json, or jsonl. Each document needs, at minimum, an :code:`id` field and a :code:`text` field. 
+Upload one or more files containing documents to be annotated in the ``data`` folder. We support multiple formats of raw data files, including: csv, tsv, json, or jsonl. Each document needs, at minimum, a unique identifier and the body of the document. 
+
+You can find example data files `here <https://github.com/davidjurgens/potato/blob/master/data/>`_. We currently support three different document formats:
+
+* Text: body is the document plaintext (`example <https://github.com/davidjurgens/potato/blob/master/data/toy-example.json>`_)
+* Image, Video, or GIF: body is the filepath (`example <https://github.com/davidjurgens/potato/blob/master/data/video-label-example.json>`_)
+* Best-Worst Scaling: body is a comma-separated list of documents to order (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_)
+
+
+You would pass the data paths and field names into the YAML config file as follows: 
 
 .. code-block:: yaml
 
     # Pass in a comma-separated list of data files containing documents to be annotated in this task
     "data_files": [
-       "data/data1.json",
-       "data/data2.json"
+       "data/toy-example1.json",
+       "data/toy-example2.json"
     ],
 
-    # Specify the field names containing the document unique identifier (id) and document text (text)
+    # Specify the field names containing the document unique identifier (id) and document body (text)
     "item_properties": {
         "id_key": "id",
         "text_key": "text"
     },
+
 
 
 Specify preferences for your output data
@@ -58,7 +68,7 @@ The output file will include each labeled document's id and annotations; the hea
 Create your codebook and schema
 ----------------
 
-Once you create your annotation codebook, you can add a link to it to the annotation interface. You'll also want to turn that codebook into a schema, by specifying: 
+Once you create your annotation codebook, you can `link it <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_ to the annotation interface. You'll also want to turn that codebook into a schema, by specifying: 
 
 * Questions: you should have one or more questions for annotators to answer
 
