@@ -16,8 +16,8 @@ You can find example data files `here <https://github.com/davidjurgens/potato/bl
 * Text: body is the document plaintext (`example <https://github.com/davidjurgens/potato/blob/master/data/toy-example.json>`_)
 * Image, Video, or GIF: body is the filepath (`example <https://github.com/davidjurgens/potato/blob/master/data/video-label-example.json>`_)
 * Best-Worst Scaling: body is a comma-separated list of documents to order (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_)
-* Likert Scaling with custom end points: body is one of the above + extra ``kwargs`` and ``other_kwargs`` fields for the  (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_)
-* Contextual Annotation: body is one of the above + extra ``context``  (`example <https://github.com/davidjurgens/potato/blob/master/data/>`_)
+* Custom Arguments: body is one of the above + extra fields for whatever custom arguments you want to enter (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_ -- in this ``kwargs`` and ``other_kwargs`` are the custom endpoints for a Likert scale)
+* Annotating Document A in context of Document B: body is document A + extra ``context`` field with the body of document B (`example <https://github.com/davidjurgens/potato/blob/master/data/>`_)
 
 
 
