@@ -4,16 +4,16 @@ Usage
 Getting started with potato is easy! Here are the 
 
 
-Step 1: Clone the potato directory to your machine
+Step 1: Install potato to your machine
 ======================
 
-
+Quickstart instructions `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/quick-start.html>_`.
 
 Step 2: Set up your task
 ======================
 
 yaml config file
-Several examples are given here: <https://github.com/davidjurgens/potato/tree/master/config/examples>
+Several examples are given `here <https://github.com/davidjurgens/potato/tree/master/config/examples>_`.
 
 
 Prepare your data
