@@ -1,7 +1,7 @@
 Usage
 =====
 
-Getting started with Potato is easy! Here are the 
+Getting started with Potato is easy! Here's what you need to do:
 
 
 Install Potato to your machine
@@ -75,19 +75,16 @@ Once you create your annotation codebook, you can add a link to it to the annota
     * Sequential Key Binding: automatically assign keys to each answer based on numeric order (i.e., first answer corresponds the '1' key, the second to the '2' key, etc.)
     * Custom Keypress Binding: specify which keys correspond to each answer, so they make logical sense to the annotator
   
-  * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_ (optional): 
+  * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_ (optional): create a table of keywords corresponding to each question and/or answer choice. If these strings appear in the document, they will be highlighted in a color corresponding to each answer. 
 
 * Likert Scale: likert type questions need to specify the scale, including labels for highest and lowest values and the number of points on the scale 
 
-Formatting Basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_. Examples of the advanced productivity features like custom key bindings, keyword highlights, and active learning are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_.
+Once you have this information, you'll need to format the schema for the YAML config file. You can find basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_ and examples of the advanced productivity features `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_. We include examples of how you can use the specifications above to set up many common NLP tasks, including: single- or multi-select classification for text or gif, multi-select classification with open "other" box, Likert-scale rating of text or gifs, best-worst scaling for text or gifs, and question-answering.
+
 
 
 Choose (or create) your template
 ----------------
-
-single- or multi-select classification for text, multi-select classification for text with open "other" box, rating text, rating gifs, best-worst scaling for text
-question-answering
-multiple tasks
 
 .. code-block:: yaml
 
@@ -110,11 +107,11 @@ multiple tasks
     "site_dir": "potato/templates/",
 
 
-The ``html_layout`` field can be set to one of the example templates `here <https://github.com/davidjurgens/potato/tree/master/templates/examples>`_ or to a custom template you specify:
+The ``html_layout`` field can be set to one of the example templates `here <https://github.com/davidjurgens/potato/tree/master/templates/examples>`_ or to a custom template you create:
 
 * ``templates/examples/kwargs_example.html``: this template specifies the layout for Likert scales 
 * ``templates/examples/plain_layout.html``: this template covers a wide range of NLP tasks (e.g., text classification, image or gif classification, best-worst scaling, question answering, multiple questions), and is designed to minimize scrolling and optimize placement of the document and questions on the screen.
-* Custom: the templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template.
+* Custom: the templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template. (`custom example 1 <>`_, `custom example 2 <>`_)
 
 
 Set up your YAML config file (optional)
