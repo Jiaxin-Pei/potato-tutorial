@@ -64,6 +64,46 @@ Provide the path to the keywords file as the value to the
 
 There is currently no way to specify the colors used through the configuration file.
 
+Tooltips
+---------------
+
+For radio and multiselect question types, you have the option to add tooltips with more details about each response option. You can do this in two ways.
+
+**Option 1:** you can enter plaintext in the ``tooltip`` field and the unformatted text will display when you hover your mouse over the response option.
+
+.. code-block:: YAML
+
+     "annotation_schemes": [
+     {
+          "annotation_type": "multiselect",
+          "name": "Question",
+          "labels": [
+              {
+                "name": "Label 1",
+                "tooltip": "lorem ipsum dolor",
+              },
+          ]
+     },
+    ]
+
+
+**Option 2:** you can create an HTML file with formatted text (e.g., bold, unordered list), and pass the path to the html file to the ``tooltip_file`` field. The formatted text will display when you hover your mouse over the response option.
+
+.. code-block:: YAML
+
+     "annotation_schemes": [
+     {
+          "annotation_type": "multiselect",
+          "name": "Question",
+          "labels": [
+              {
+                "name": "Label 1",
+                "tooltip_file": "config/tooltips/label1_tooltip.html"
+              },
+          ]
+     },
+    ]
+
 Active learning
 ---------------
 Active learning can be enabled and configured by providing the
