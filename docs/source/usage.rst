@@ -18,9 +18,9 @@ Set up the project data
 
 In order to input document and specify:
 
-* `Prepare <>`_ your input data (csv, tsv, or json) and upload it in the ``data`` folder
-* Specify where and in what format you want the `output <>`_ data 
-* Optional: Update the config YAML file with `input <>`_ and `output <>`_ data preferences
+* `Prepare <https://potato-annotation-tutorial.readthedocs.io/en/latest/data_format.html#prepare-your-input-data>`_ your input data (csv, tsv, or json) and upload it in the ``data`` folder
+* Specify where and in what format you want the `output <https://potato-annotation-tutorial.readthedocs.io/en/latest/data_format.html#update-output-data-preferences-on-the-yaml-config-file>`_ data 
+* Optional: Update the config YAML file with `input <https://potato-annotation-tutorial.readthedocs.io/en/latest/data_format.html#update-input-data-formats-on-the-yaml-config-file>`_ and `output <https://potato-annotation-tutorial.readthedocs.io/en/latest/data_format.html#update-output-data-preferences-on-the-yaml-config-file>`_ data preferences
 
 
 Create your codebook and schema
