@@ -30,15 +30,17 @@ Create your schema
 ----------------
 
 The schema includes: 
-* Question: 
-** Content:
-** Type: multiple-selection (checkboxes), single-selection (radio buttons), best-worst scaling, Likert scale, free-form text
-** Other Features: required, 
-* Answer
-** Content: 
-** Tooltip text: either 1) plain text or 2) for formatted tooltipcs, path to html file on the machine
-* Keyboard shortcuts: 
-* Keyword highlights: 
+* Questions: you should have one or more questions for annotators to answer
+  * Content:
+  * Annotation Type: multiple-selection (checkboxes), ``radio`` (single selection), best-worst scaling, Likert scale, ``text`` (free-form)
+  * Other Features: ``required``, 
+* Answers: each question should have one or more anqers 
+  * Content: 
+  * Tooltip text: either 1) plain text or 2) for formatted tooltipcs, path to html file on the machine
+  * `Keyboard shortcuts <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#keyboard-shortcuts>`_: use keyboard instead of mouse to select and deselcet answers. There are two options:
+    * Sequential Key Binding: automatically assign keys to each answer based on numeric order (i.e., first answer corresponds the '1' key, the second to the '2' key, etc.)
+    * Custom Keypress Binding: specify which keys correspond to each answer, so they make logical sense to the annotator
+  * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_: 
 
 Formatting the schema in the config 
 * Basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_
@@ -48,13 +50,22 @@ Formatting the schema in the config
 Choose (or create) your template
 ----------------
 
-\potato has been deployed in a variety of annotation settings over a two-year period, including a 27-class annotation scheme for immigration framing \cite{mendelsohn2021modeling}, rating condolences and empathy for Reddit comments with hundreds of words \cite{zhou2020condolences}, best-worst scaling for rating intimacy in questions \cite{pei2020quantifying}, rating Reddit threads for their prosociality conversations \cite{bao2021conversations}, Likert-scale rating sentences for scientific uncertainty \cite{pei2021measuring}, and rating the appropriateness of gif replies to messages, which showed animated gif in the interface \cite{wang2021animated}. 
+
+multi-select classification for text
+single-select classification for text
+rating text
+rating gifs 
+best-worst scaling for text
+question-answering
+
 
 Example templates are `here <https://github.com/davidjurgens/potato/tree/master/templates>`_. These templates cover a wide range of NLP tasks and can be easily adapted. 
 * ``text classification``
 * ``image classification``
 * ``Best-worst Scaling``
 
+
+`active learning <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#active-learning>`_
 
 Step 3: Launch potato locally
 ======================
