@@ -43,7 +43,7 @@ Create your codebook and schema
 Define annotation settings
 ----------------
 
-* Choose an existing `html template <>`_ for the annotation task or create a new one
+* Choose an existing `html template <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#choose-or-create-your-html-template>`_ for the annotation task or create a new one
 * Optional: Update the YAML file with the look and feel
 * Optional: Set up `active learning <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#active-learning>`_
 
