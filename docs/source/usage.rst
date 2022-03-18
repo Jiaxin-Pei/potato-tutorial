@@ -7,7 +7,7 @@ Getting started with potato is easy! Here are the
 Step 1: Install potato to your machine
 ======================
 
-Quickstart instructions `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/quick-start.html>_`.
+Quickstart instructions `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/quick-start.html>`_.
 
 Step 2: Set up your task
 ======================
