@@ -30,19 +30,26 @@ Create your schema
 ----------------
 
 The schema includes: 
+
 * Questions: you should have one or more questions for annotators to answer
+
   * Content:
   * Annotation Type: multiple-selection (checkboxes), ``radio`` (single selection), best-worst scaling, Likert scale, ``text`` (free-form)
   * Other Features: ``required``, 
-* Answers: each question should have one or more anqers 
+  
+* Answers: except for ``text`` types, each question should have one or more answers
+
   * Content: 
   * Tooltip text: either 1) plain text or 2) for formatted tooltipcs, path to html file on the machine
   * `Keyboard shortcuts <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#keyboard-shortcuts>`_: use keyboard instead of mouse to select and deselcet answers. There are two options:
+  
     * Sequential Key Binding: automatically assign keys to each answer based on numeric order (i.e., first answer corresponds the '1' key, the second to the '2' key, etc.)
     * Custom Keypress Binding: specify which keys correspond to each answer, so they make logical sense to the annotator
+  
   * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_: 
 
 Formatting the schema in the config 
+
 * Basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_
 * Examples of the advanced productivity features like custom key bindings, keyword highlights, and active learning are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_
 
