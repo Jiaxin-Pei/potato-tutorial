@@ -255,10 +255,10 @@ Set up the annotation interface by picking an existing HTML template (`examples 
 
 
 
-Choose (or create) your HTML template
+Update YAML file with look and feel
 ----------------
 
-In the YAML file, you'll need to specify what the annotation inter. The rest of the look and feel can generally be left untouched.
+In the YAML file, you'll need to specify what the annotation interface looks like. The ``html_layout`` field can be updated per the prior section. The rest of the fields can generally be left untouched.
 
 .. code-block:: yaml
 
