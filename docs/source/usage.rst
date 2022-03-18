@@ -9,56 +9,83 @@ Install Potato to your machine
 
 Potato has a Python-based server architecture that can be run locally or hosted on any device. In order to install Potato: 
 
-* Make sure you have Python version 3.0.0+ installed 
+* Make sure you have Python version 3 installed 
 * Follow the quickstart instructions `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/quick-start.html>`_.
 
 
-Prepare your data
+Prepare your input data
 ------------
 
-Each document needs, at minimum, an :code:`id` field and a :code:`text` field. We support multiple formats of raw data files, including: csv, json, 
+Upload one or more files containing documents to be annotated in the ``data`` folder. We support multiple formats of raw data files, including: csv, tsv, json, or jsonl. Each document needs, at minimum, an :code:`id` field and a :code:`text` field. 
+
+.. code-block:: yaml
+
+    # Pass in a comma-separated list of data files containing documents to be annotated in this task
+    "data_files": [
+       "data/data1.json",
+       "data/data2.json"
+    ],
+
+    # Specify the field names containing the document unique identifier (id) and document text (text)
+    "item_properties": {
+        "id_key": "id",
+        "text_key": "text"
+    },
 
 
-Create your schema
+Specify preferences for your output data
+------------
+
+The output file will include each labeled document's id and annotations; the header will consist of the question and answer labels specified in the `schema <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_. You need to specify a subdirectory of the ``annotation_output`` directory where files for each annotator should be placed. We support multiple output formats, including: csv, tsv, json, or jsonl.
+
+.. code-block:: yaml
+
+    # Potato will write the annotation file for all annotations to this
+    # directory, as well as per-annotator output files and state information
+    # necessary to restart annotation.
+    "output_annotation_dir": "annotation_output/folder_name/",
+
+    # The output format for the all-annotator data. Allowed formats are:
+    # * jsonl
+    # * json (same output as jsonl)
+    # * csv
+    # * tsv
+    #
+    "output_annotation_format": "json", 
+
+
+
+Create your codebook and schema
 ----------------
 
-The schema includes: 
+Once you create your annotation codebook, you can add a link to it to the annotation interface. You'll also want to turn that codebook into a schema, by specifying: 
 
 * Questions: you should have one or more questions for annotators to answer
 
-  * Content: long text to display on the front end + short text for the header of the response file 
+  * Content: long text to display on the front end + short text for the header of the output file 
   * Annotation Type: ``multiselect`` (checkboxes), ``radio`` (single selection), ``likert`` (scale with endpoints labeled), ``text`` (free-form)
-  * Other Features: 
-  
-    * ``required``
-    * ``horizontal`` 
-    * ``has_free_response`` (whether to include at the end of multiselect or radio question)
-  
-* Answers: except for ``text`` types, each question should have one or more answers
+  * Other Features: ``required``, ``horizontal`` (placement of answers are horizontal not vertical), ``has_free_response`` (whether to include an open text box at the end of multiselect or radio question, like having an "other" option)
 
-  * Content: 
-  * Tooltip text: either 1) plain text or 2) for formatted tooltipcs, path to html file on the machine
-  * `Keyboard shortcuts <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#keyboard-shortcuts>`_: use keyboard instead of mouse to select and deselcet answers. There are two options:
+* Answers: multiselect and radio type questions should have one or more answer choices
+
+  * Content: long text or path to gif/image to display on the front end + short text for the header of the output file 
+  * Tooltip (optional): either plain text or path to html file (if you want the text to be formatted, e.g., bulleted lists)
+  * `Keyboard shortcut <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#keyboard-shortcuts>`_ (optional): use keyboard instead of mouse to select and deselcet answers. There are two options:
   
     * Sequential Key Binding: automatically assign keys to each answer based on numeric order (i.e., first answer corresponds the '1' key, the second to the '2' key, etc.)
     * Custom Keypress Binding: specify which keys correspond to each answer, so they make logical sense to the annotator
   
-  * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_: 
+  * `Keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_ (optional): 
 
-Formatting the schema in the config 
+* Likert Scale: likert type questions need to specify the scale, including labels for highest and lowest values and the number of points on the scale 
 
-* Basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_
-* Examples of the advanced productivity features like custom key bindings, keyword highlights, and active learning are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_
+Formatting Basic examples are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_. Examples of the advanced productivity features like custom key bindings, keyword highlights, and active learning are `here <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_.
 
 
 Choose (or create) your template
 ----------------
 
-multi-select classification for text
-single-select classification for text
-rating text
-rating gifs 
-best-worst scaling for text
+single- or multi-select classification for text, multi-select classification for text with open "other" box, rating text, rating gifs, best-worst scaling for text
 question-answering
 multiple tasks
 
