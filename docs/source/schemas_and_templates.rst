@@ -251,7 +251,7 @@ Set up the annotation interface by picking an existing HTML template (`examples 
 * ``templates/examples/plain_layout.html``: this template covers a wide range of NLP tasks (e.g., text classification, image or gif classification, Likert scales, best-worst scaling, question answering, multiple questions), and is designed to minimize scrolling and optimize placement of the document and questions on the screen.
 * ``templates/examples/kwargs_example.html``: this template specifies the layout for Likert scales, when  
 * ``templates/quotes.html``: this template specifies the layout when you want to annotate, not a standalone document, but a document in relation to some ``context`` document (e.g., if you're annotating replies to a post, and want to show the original post) 
-* Custom: Create an HTML file thatt lays out your task pieces and upload it to ``potato/templates/``. The templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template. (`custom example 1 <https://github.com/davidjurgens/potato/tree/master/templates/examples/kwargs_example.html`>`_, `custom example 2 <https://github.com/davidjurgens/potato/tree/master/templates/quotes.html>`_)
+* Custom: Create an HTML file thatt lays out your task pieces and upload it to ``potato/templates/``. The templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template. (`custom example 1 <https://github.com/davidjurgens/potato/tree/master/templates/examples/kwargs_example.html>`_, `custom example 2 <https://github.com/davidjurgens/potato/tree/master/templates/quotes.html>`_)
 
 
 
