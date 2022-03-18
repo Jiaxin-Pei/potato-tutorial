@@ -44,7 +44,7 @@ Define annotation settings
 ----------------
 
 * Choose an existing `html template <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#choose-or-create-your-html-template>`_ for the annotation task or create a new one
-* Optional: Update the YAML file with the `look and feel <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#update-yaml-file-with-look-and-feel>`.
+* Optional: Update the YAML file with the `look and feel <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#update-yaml-file-with-look-and-feel>`_.
 * Optional: Set up `active learning <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#active-learning>`_
 
 
