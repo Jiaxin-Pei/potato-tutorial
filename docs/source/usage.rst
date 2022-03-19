@@ -26,6 +26,8 @@ In order to input document and specify:
 Create your codebook and schema
 ----------------
 
+Next, you'll need to specify what annotators annotate: 
+
 * Create your annotation codebook and `link it <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_ to the annotation interface
 * Specify the `schema <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_, including:
 
@@ -42,6 +44,8 @@ Create your codebook and schema
 
 Define annotation settings
 ----------------
+
+There are a few other settings you can play with:
 
 * Choose an existing `html template <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#choose-or-create-your-html-template>`_ for the annotation task or create a new one
 * Optional: Specify privacy and access `settings <https://potato-annotation-tutorial.readthedocs.io/en/latest/user_and_collaboration.html>`_ for the task
