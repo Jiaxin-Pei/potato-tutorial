@@ -28,7 +28,7 @@ Create your codebook and schema
 
 Next, you'll need to specify what annotators annotate: 
 
-* Create your annotation codebook and `link it <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_ to the annotation interface
+* Create your annotation codebook and `link it <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html#add-the-codebook-to-the-page>`_ to the annotation interface
 * Specify the `schema <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_, including:
 
   * Annotation Type: ``multiselect`` (checkboxes), ``radio`` (single selection), ``likert`` (scale with endpoints labeled), or ``text`` (free-form)
