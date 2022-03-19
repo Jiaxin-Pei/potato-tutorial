@@ -32,11 +32,11 @@ Create your codebook and schema
   * Annotation Type: ``multiselect`` (checkboxes), ``radio`` (single selection), ``likert`` (scale with endpoints labeled), or ``text`` (free-form)
   * Questions for annotators 
   * Answer Choices for multiselect and radio types 
-  * Likert Scale length and end labels for likert type questions
+  * End Labels and Length for likert type questions
   * Optional Question Features: ``required``, ``horizontal`` (placement of answers is horizontal not vertical), ``has_free_response`` (whether to include an open text box at the end of multiselect or radio question, like having an "other" option)
   * Optional Answer Features: `tooltips <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#tooltips>`_, `keyboard shortcuts <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#keyboard-shortcuts>`_, `keywords to highlight <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html#dynamic-highlighting>`_
 
-* Optional: Format the schema for the YAML config file (`basic examples <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_ and `advanced examples <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_)
+* Optional: Format the schema for the YAML config file (`basic examples <https://potato-annotation-tutorial.readthedocs.io/en/latest/schemas_and_templates.html>`_, `advanced examples <https://potato-annotation-tutorial.readthedocs.io/en/latest/productivity.html>`_)
 
 
 
