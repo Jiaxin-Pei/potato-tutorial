@@ -249,9 +249,9 @@ Choose (or create) your HTML template
 Set up the annotation interface by picking an existing HTML template (`examples <https://github.com/davidjurgens/potato/tree/master/templates/examples>`_) or creating a custom template:
 
 * ``templates/examples/plain_layout.html``: this template covers a wide range of NLP tasks (e.g., text classification, image or gif classification, Likert scales, best-worst scaling, question answering, multiple questions), and is designed to minimize scrolling and optimize placement of the document and questions on the screen.
-* ``templates/examples/kwargs_example.html``: this template specifies the layout for a task where each document is rated on some Likert scales with differing endpoints (``kwargs`` and ``other_kwargs``) 
 * ``templates/quotes.html``: this template specifies the layout when you want to annotate, not a standalone document, but a document in context of some other document (e.g., if you're annotating replies to a post, and want to show the original post) 
-* Custom: Create an HTML file thatt lays out your task pieces and upload it to ``potato/templates/``. The templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template. (`custom example 1 <https://github.com/davidjurgens/potato/tree/master/templates/examples/kwargs_example.html>`_, `custom example 2 <https://github.com/davidjurgens/potato/tree/master/templates/quotes.html>`_)
+* ``templates/examples/kwargs_example.html``: this template specifies the layout for a task where each document is rated on some Likert scales with differing endpoints (``kwargs`` and ``other_kwargs``). It's an example of how to use a custom keyword argument in an HTML file.
+* Custom: Create an HTML file that lays out your task pieces and upload it to ``potato/templates/``. The templates can be easily customized using JINJA expressions to specify where parts of the annotation task and data are populated within the user-defined template. (`custom example 1 <https://github.com/davidjurgens/potato/tree/master/templates/examples/kwargs_example.html>`_, `custom example 2 <https://github.com/davidjurgens/potato/tree/master/templates/quotes.html>`_)
 
 
 
