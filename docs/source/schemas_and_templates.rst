@@ -242,6 +242,20 @@ Tasks with multiple schemas
         # ... more schemes
     ],
 
+Add the codebook to the page
+----------------
+
+If you have a url to a codebook (e.g., in Google Docs), you can add it to the page by setting the ``annotation_codebook_url`` field in the YAML file. You can also add the task name as the page title using the ``annotation_task_name`` field.
+
+.. code-block:: yaml
+
+    # page title
+    "annotation_task_name": "Example Task",
+
+    # If annotators are using a codebook, this will be linked at the top to the
+    # instance for easy access
+    "annotation_codebook_url": "https://www.codebook.com",
+
 
 Choose (or create) your HTML template
 ----------------
