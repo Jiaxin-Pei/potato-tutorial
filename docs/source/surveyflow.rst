@@ -121,3 +121,14 @@ Potato provides a list of basic demographic questions covering common needs:
         {"id":"8","text":"What ethnic group do you belong to?","schema": "select", "use_predefined_labels": "ethnicity", "label_requirement": {"required":true}}
         {"id":"9","text":"What is your present religion, if any?","schema": "select", "use_predefined_labels": "religion", "label_requirement": {"required":true}}
         {"id":"10","text":"Please feel free to leave any comments about our study (optional)","schema": "text"}
+
+
+Built-in study experience survey:
+---------------
+Potato also supports you to survey the user annotation experience with the following questions:
+
+.. code-block:: YAML
+
+        {"id":"1","text":"How satisfied do you feel about your experience participating our study?","schema": "radio", "choices": ["Not satisfied", "Satisfied", "Very satisfied"], "label_requirement": {"required":true}}
+        {"id":"2","text":"How do you feel about your experience participating our study compared with other studies?","schema": "radio", "choices": ["Much worse than others", "Worse than others", "Similar", "Better than others", "Much better than others"], "label_requirement": {"required":true}}
+        {"id":"3","text":"Please feel free to leave any comments about our study (optional)","schema": "text"}
