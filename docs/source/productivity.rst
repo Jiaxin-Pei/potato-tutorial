@@ -167,3 +167,23 @@ basic example of the active learning configuration.
       "max_inferred_predictions": 20,
     },
  
+ 
+ 
+Automatic task assignent
+------------
+
+Potato allows you to easily assign annotation tasks to different annotators, this is especially userful for crowdsourcing setting where you only need one annotator to work on a fixed amount of instances.
+
+You can edit the automatic_assignmetn section in the configureation file for this function
+
+.. code-block:: yaml
+ 
+     "automatic_assignment": {
+        "on": true, # set false to turn off automatic assignment
+        "output_filename": "task_assignment.json", # saving path of the task assignment status
+        "sampling_strategy:": "random", # currently we only support random assignment
+        "labels_per_instance": 10, # number of labels for each instance
+        "instance_per_annotator": 50, # number of instances assigned for each annotator
+        "test_question_per_annotator": 2, # number of attention test questions for each annotator
+        "users": []
+    },
