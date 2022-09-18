@@ -19,6 +19,7 @@ Step 1, prepare a .jsonl file for the survey questions you want to insert. For e
         {"id":"4","text":"I want to participate in this research and continue with the study.","schema": "radio", "choices": ["Yes", "No"], "label_requirement": {"right_label":["Yes"]}}
 
 Step 2, insert the file path into the configuration file:
+
 .. code-block:: YAML
 
         "surveyflow": {
@@ -32,7 +33,7 @@ Step 2, insert the file path into the configuration file:
                 ],
                 "post_annotation": [
                 ],
-            },
+        },
 
 Potato will automatically create a consent page for all the annotators when you launch it.
 
