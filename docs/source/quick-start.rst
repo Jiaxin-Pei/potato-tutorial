@@ -10,7 +10,8 @@ Clone the github repo to your computer
 Install all the required dependencies
 
 .. code-block:: console
-
+    
+    cd potato
     pip3 install -r requirements.txt
 
 To run a simple check-box style annotation on text data, run
