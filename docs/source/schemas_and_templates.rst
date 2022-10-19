@@ -272,7 +272,7 @@ Pairwise comparison
 .. code-block:: YAML
 
 
-    #setting up list_as_text input, where the pairs will be inputed as a list of texts and potato will automatically unfold them
+    #setting up list_as_text input, where the pairs will be inputed as a list of texts and potato will automatically unfold them 
     "list_as_text": {
       "text_list_prefix_type": 'alphabet'
     },
