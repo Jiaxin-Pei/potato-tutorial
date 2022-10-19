@@ -21,4 +21,5 @@ Contents
    productivity
    surveyflow
    annotator_stats
+   example-projects
    open-sourcing
