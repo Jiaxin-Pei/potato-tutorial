@@ -4,7 +4,8 @@ Potato aims to improve the replicability of data annotation and reduce the cost 
 
 Dialogue analysis (span + categorization)
 ------------
-.. code-block::YAML
+
+.. code-block::bash
 
     [launch] python3 potato/flask_server.py example-projects/dialogue_analysis/configs/dialogue-analysis.yaml -p 8000
     [Annotate] http://localhost:8000
@@ -16,7 +17,7 @@ Dialogue analysis (span + categorization)
 Sentiment analysis (categorization)
 ------------
 
-.. code-block::YAML
+.. code-block::bash
 
     [launch] python3 potato/flask_server.py example-projects/sentiment_analysis/configs/sentiment-analysis.yaml -p 8000
     [Annotate] http://localhost:8000
@@ -27,7 +28,8 @@ Sentiment analysis (categorization)
     
 Summarization evaluation (likert + categorization)
 ------------
-.. code-block::YAML
+
+.. code-block::bash
 
     [launch] python3 potato/flask_server.py example-projects/summarization_evaluation/configs/summ-eval.yaml -p 8000
     [Annotate] http://localhost:8000/?PROLIFIC_PID=user
@@ -38,7 +40,8 @@ Summarization evaluation (likert + categorization)
 
 Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
-.. code-block::YAML
+
+.. code-block::bash
 
     [Setup configuration files for multiple similar tasks] python3 potato/setup_multitask_config.py example-projects/match_finding/multitask_config.yaml
     [launch] python3 potato/flask_server.py example-projects/match_finding/configs/Computer_Science.yaml -p 8000
