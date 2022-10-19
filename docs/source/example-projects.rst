@@ -7,7 +7,7 @@ Potato aims to improve the replicability of data annotation and reduce the cost 
     [Annotate] http://localhost:8000
 
 .. image:: ../img/dialogue_analysis.gif
-   :width: 400
+   :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
 ### Sentiment analysis (categorization)
