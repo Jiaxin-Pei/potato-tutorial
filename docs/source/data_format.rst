@@ -15,10 +15,13 @@ You can find example data files `here <https://github.com/davidjurgens/potato/bl
 
 * Text: body is the document plaintext (`example <https://github.com/davidjurgens/potato/blob/master/data/toy-example.json>`_)
 * Image, Video, or GIF: body is the filepath (`example <https://github.com/davidjurgens/potato/blob/master/data/video-label-example.json>`_)
+* Dialogue or a list of text: body is a list of comma-seperated documents and potato will automatically display the list of text horizontally. (`example <https://github.com/davidjurgens/potato/blob/master/example-projects/dialogue_analysis/data_files/dialogue-example.json>`_)
+* Pairs of text displayed in separate boxes: body is a dictionary of documents (`example <https://github.com/davidjurgens/potato/blob/master/example-projects/match_finding/data_files/pilot_data_Biology.csv>`_)
 * Best-Worst Scaling: body is a comma-separated list of documents to order (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_)
 * Custom Arguments: body is one of the above + extra fields for whatever custom arguments you want to enter (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_ -- in this ``kwargs`` and ``other_kwargs`` are the custom endpoints for a Likert scale)
 * Annotating Document A in context of Document B: body is document A + extra ``context`` field with the body of document B (`example <https://github.com/davidjurgens/potato/blob/master/data/>`_)
 
+You can also use html tags to design the way your text to be displayed. In the [match finding example project](https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding), html tags are used to create two seperate boxes for the finding pairs. 
 
 
 
