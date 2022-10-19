@@ -6,7 +6,9 @@ Potato aims to improve the replicability of data annotation and reduce the cost 
     [launch] python3 potato/flask_server.py example-projects/dialogue_analysis/configs/dialogue-analysis.yaml -p 8000
     [Annotate] http://localhost:8000
 
-![plot](./images/dialogue_analysis.gif)
+.. image:: ../img/dialogue_analysis.gif
+   :width: 400
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
 ### Sentiment analysis (categorization)
 
