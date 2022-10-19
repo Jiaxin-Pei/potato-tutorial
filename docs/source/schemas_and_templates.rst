@@ -29,7 +29,7 @@ Multiple Choice
 
 **Simple Checkbox Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-check-box.yaml#L49>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.json>`_):
 
-.. image:: ../img/screenshots/likert_example.jpg
+.. image:: ../img/screenshots/simple_checkbox.gif
    :width: 400
    :align: center
 
@@ -85,6 +85,11 @@ We also support using video/animated-gif as label for multi-modal annotation (`y
     ],
 
 **Multiple Choice with Free Response** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-check-box-with-free-response.yaml>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.csv>`_):
+
+
+.. image:: ../img/screenshots/simple-chechbox-freeresponse.gif
+   :width: 400
+   :align: center
 
 .. code-block:: YAML
 
