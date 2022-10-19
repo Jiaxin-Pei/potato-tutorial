@@ -17,8 +17,10 @@ Sentiment analysis (categorization)
 
     [launch] python3 potato/flask_server.py example-projects/sentiment_analysis/configs/sentiment-analysis.yaml -p 8000
     [Annotate] http://localhost:8000
-    
-![plot](./images/sentiment_analysis.png)
+
+.. image:: ../img/sentiment_analysis.png
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
     
 Summarization evaluation (likert + categorization)
 ------------
@@ -26,7 +28,9 @@ Summarization evaluation (likert + categorization)
     [launch] python3 potato/flask_server.py example-projects/summarization_evaluation/configs/summ-eval.yaml -p 8000
     [Annotate] http://localhost:8000/?PROLIFIC_PID=user
     
-![plot](./images/summ_eval.png)
+.. image:: ../img/summ_eval.png
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
 Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
@@ -35,4 +39,6 @@ Match findings in papers and news (likert + prescreening questions + multi-task)
     [launch] python3 potato/flask_server.py example-projects/match_finding/configs/Computer_Science.yaml -p 8000
     [Annotate] http://localhost:8000/?PROLIFIC_PID=user
     
-![plot](./images/match_finding.gif)
+.. image:: ../img/match_finding.gif
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
