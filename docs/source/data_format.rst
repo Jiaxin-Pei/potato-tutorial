@@ -21,7 +21,7 @@ You can find example data files `here <https://github.com/davidjurgens/potato/bl
 * Custom Arguments: body is one of the above + extra fields for whatever custom arguments you want to enter (`example <https://github.com/davidjurgens/potato/blob/master/data/bws-example.json>`_ -- in this ``kwargs`` and ``other_kwargs`` are the custom endpoints for a Likert scale)
 * Annotating Document A in context of Document B: body is document A + extra ``context`` field with the body of document B (`example <https://github.com/davidjurgens/potato/blob/master/data/>`_)
 
-You can also use html tags to design the way your text to be displayed. In the [match finding example project](https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding), html tags are used to create two seperate boxes for the finding pairs. 
+You can also use html tags to design the way your text to be displayed. In the `match finding example project <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding>`_, html tags are used to create two seperate boxes for the finding pairs. 
 
 
 
