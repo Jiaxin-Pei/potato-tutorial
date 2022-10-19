@@ -29,6 +29,10 @@ Multiple Choice
 
 **Simple Checkbox Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-check-box.yaml#L49>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.json>`_):
 
+.. image:: ../img/screenshots/likert_example.jpg
+   :width: 400
+   :align: center
+
 .. code-block:: YAML
 
   "annotation_schemes": [      
