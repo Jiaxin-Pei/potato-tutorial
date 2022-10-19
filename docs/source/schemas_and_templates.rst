@@ -56,6 +56,10 @@ Multiple Choice
 **Video as label**
 We also support using video/animated-gif as label for multi-modal annotation (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-video-as-label.yaml>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/video-label-example.json>`_):
 
+.. image:: ../img/screenshots/gif_reply_screenshot.jpg
+   :width: 400
+   :align: center
+
 .. code-block:: YAML
 
   "annotation_schemes": [ 
@@ -129,6 +133,10 @@ Single Choice (Radio)
 
 **Best-Worst Scaling Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-best-worst-scaling.yaml#L53>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/bws-example.json>`_):
 
+.. image:: ../img/screenshots/bws-screenshot.jpg
+   :width: 400
+   :align: center
+
 .. code-block:: YAML
 
   "annotation_schemes": [      
@@ -199,6 +207,10 @@ Text Box
 
 **Simple Text Box Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-text-box.yaml#L53>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.json>`_):
 
+.. image:: ../img/screenshots/likert_example.jpg
+   :width: 400
+   :align: center
+
 .. code-block:: YAML
 
     "annotation_schemes": [      
@@ -213,6 +225,10 @@ Text Box
 Tasks with multiple schemas
 ----------------
 ``potato`` also support using multiple (different) schemas per annotation task as shown below:
+
+.. image:: ../img/screenshots/immigration-framing.jpg
+   :width: 400
+   :align: center
 
 .. code-block:: YAML
 
