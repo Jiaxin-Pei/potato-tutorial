@@ -233,7 +233,7 @@ Text span
             # specification to bind all labels to keys.
             "sequential_key_binding": True,            
         },       
-    ],
+    ], 
     
     
 Text Box
