@@ -23,3 +23,4 @@ Contents
    annotator_stats
    example-projects
    open-sourcing
+   open-sourcing
