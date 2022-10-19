@@ -175,6 +175,10 @@ Likert
 
 **Simple Likert Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-likert.yaml#L39>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.json>`_):
 
+.. image:: ../img/screenshots/likert_example.jpg
+   :width: 400
+   :align: center
+
 .. code-block:: YAML
 
   "annotation_schemes": [      
@@ -207,7 +211,7 @@ Text Box
 
 **Simple Text Box Example** (`yaml config <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/config/examples/simple-text-box.yaml#L53>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/toy-example.json>`_):
 
-.. image:: ../img/screenshots/likert_example.jpg
+.. image:: ../img/screenshots/text-box-screenshot.jpg
    :width: 400
    :align: center
 
@@ -227,7 +231,7 @@ Tasks with multiple schemas
 ``potato`` also support using multiple (different) schemas per annotation task as shown below:
 
 .. image:: ../img/screenshots/immigration-framing.jpg
-   :width: 400
+   :width: 700
    :align: center
 
 .. code-block:: YAML
