@@ -10,7 +10,7 @@ You could easily insert any survey questions before the annotation instances usi
 Potato also provide templates for setting up task instructions and user consents. 
 
 .. image:: ../img/screenshots/prescreening_questions.gif
-   :width: 500
+   :width: 1000
    :align: center
 
 Step 1, prepare a .jsonl file for the survey questions you want to insert. For example, if you want to insert a page of censent questions, you can add the following likes to a jsonl file named consent.jsonl
@@ -83,7 +83,7 @@ Post-study survey
 ---------------
 
 .. image:: ../img/screenshots/postscreening_questions.gif
-   :width: 500
+   :width: 1000
    :align: center
    
 You can also insert post study surveys just like the prestudy survey:
