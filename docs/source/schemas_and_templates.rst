@@ -259,6 +259,31 @@ Text Box
             "description": "How does this text make you feel?",
         }       
     ]
+    
+Pairwise comparison
+*********
+
+**Simple Text Box Example** (`yaml config <https://github.com/davidjurgens/potato/blob/master/config/examples/simple-pairwise-comparison.yaml#L34>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/pairwise-example.json>`_):
+
+.. image:: ../img/screenshots/simple-pairwise.gif
+   :width: 400
+   :align: center
+
+.. code-block:: YAML
+
+
+    #setting up list_as_text input, where the pairs will be inputed as a list of texts and potato will automatically unfold them
+    "list_as_text": {
+      "text_list_prefix_type": 'alphabet'
+    },
+
+    "annotation_schemes": [      
+        {
+            "annotation_type": "text",
+            "name": "textbox_input",
+            "description": "How does this text make you feel?",
+        }       
+    ]
 
 
 Tasks with multiple schemas
