@@ -81,6 +81,11 @@ and edit the surveyflow section in the configuration file:
 
 Post-study survey
 ---------------
+
+.. image:: ../img/screenshots/postscreening_questions.gif
+   :width: 500
+   :align: center
+   
 You can also insert post study surveys just like the prestudy survey:
 
 .. code-block:: YAML
@@ -108,9 +113,6 @@ and add the filename into the surveyflow section of your configuration file:
                 ]
         },
 
-.. image:: ../img/screenshots/postscreening_questions.gif
-   :width: 500
-   :align: center
 
 
 Built-in demographic questions
