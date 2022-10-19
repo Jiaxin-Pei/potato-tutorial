@@ -14,6 +14,7 @@ Contents
 
 .. toctree::
    quick-start
+   example-projects
    usage
    data_format
    schemas_and_templates
@@ -21,5 +22,4 @@ Contents
    productivity
    surveyflow
    annotator_stats
-   example-projects
    open-sourcing
