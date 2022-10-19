@@ -263,7 +263,7 @@ Text Box
 Pairwise comparison
 *********
 
-**Simple Text Box Example** (`yaml config <https://github.com/davidjurgens/potato/blob/master/config/examples/simple-pairwise-comparison.yaml#L34>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/pairwise-example.json>`_):
+**Simple Pairwise Example** (`yaml config <https://github.com/davidjurgens/potato/blob/master/config/examples/simple-pairwise-comparison.yaml#L34>`_, `data example <https://github.com/davidjurgens/potato/blob/b57d12a2bd2133604c00ebe80861c8187da4d6bf/data/pairwise-example.json>`_):
 
 .. image:: ../img/screenshots/simple-pairwise.gif
    :width: 400
