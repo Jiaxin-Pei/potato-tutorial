@@ -5,8 +5,7 @@ Potato is fully open-sourced and welcome contributions to our project.
 Our current development plan
 ------------
 
-1. span-based annotation
-2. better UI setup
+1. better UI setup
 
 Submit feature request
 ------------
