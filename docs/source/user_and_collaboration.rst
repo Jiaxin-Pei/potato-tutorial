@@ -16,7 +16,7 @@ After creating an account, you can log in with the email and password used in
 the account creation step.
 
 
-Direct login with URL arguement `yaml config <https://github.com/davidjurgens/potato/blob/master/example-projects/match_finding/configs/match_finding.yaml#L48>`_
+Direct login with URL arguement 
 ------------
 
 .. image:: ../img/screenshots/direct_login.gif
@@ -24,7 +24,8 @@ Direct login with URL arguement `yaml config <https://github.com/davidjurgens/po
    :align: center
 
 Potato also supports direct login through URL arguements, for example: http://localhost:8000/?PROLIFIC_PID=user
-You could setup direct login in the YAML configuration file:
+
+You could setup direct login in the YAML configuration file (`example <https://github.com/davidjurgens/potato/blob/master/example-projects/match_finding/configs/match_finding.yaml#L48>`_):
 
 
 .. code-block:: YAML
