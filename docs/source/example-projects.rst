@@ -67,6 +67,6 @@ Immigration framing in tweets (Multi-schema categorization)
     [launch] python3 potato/flask_server.py example-projects/immigration_framing/configs/config.yaml -p 8000
     [Annotate] http://localhost:8000/
     
-.. image:: ../img/immigration-framing.gif
+.. image:: ../img/screenshots/immigration-framing.gif
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
