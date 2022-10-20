@@ -15,6 +15,25 @@ After creating an account, you can log in with the email and password used in
 the account creation step.
 
 
+Direct login with URL arguement `yaml config <https://github.com/davidjurgens/potato/blob/master/example-projects/match_finding/configs/match_finding.yaml#L48>`_
+------------
+
+.. image:: ../img/screenshots/direct_login.gif
+   :width: 1000
+   :align: center
+
+Potato also supports direct login through URL arguements, for example: http://localhost:8000/?PROLIFIC_PID=user
+You could setup direct login in the YAML configuration file:
+
+
+.. code-block:: YAML
+
+    #defining the ways annotators entering the annotation system
+    "login": {
+       "type": 'url_direct',    #can be 'password' or 'url_direct'
+       "url_argument": 'PROLIFIC_PID' # when the login type is set to 'url_direct', 'url_argument' must be setup for a direct url argument login
+    },
+
 Collaboration under local network
 ----------------
 If you do not want to expose the annotation app globally, Potato serves to the
