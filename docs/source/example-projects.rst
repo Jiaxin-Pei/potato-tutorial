@@ -42,10 +42,10 @@ Summarization evaluation (likert + categorization)
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
-Match findings in papers and news (likert + prescreening questions + multi-task)
+Immigration framing in tweets (Multi-schema categorization)
 ------------
 
-`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding>`_ | `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/immigration_framing>`_ | `Paper <https://aclanthology.org/2021.naacl-main.179/>`_
 
 .. code-block::
 
