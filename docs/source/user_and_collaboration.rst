@@ -9,6 +9,7 @@ your account".
 
 .. image:: ../img/login-button.png
    :width: 400
+   :align: center
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
 After creating an account, you can log in with the email and password used in
