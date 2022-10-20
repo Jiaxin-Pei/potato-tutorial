@@ -5,6 +5,8 @@ Potato aims to improve the replicability of data annotation and reduce the cost 
 Dialogue analysis (span + categorization)
 ------------
 
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/dialogue_analysis>`_
+
 .. code-block::
 
     [launch] python3 potato/flask_server.py example-projects/dialogue_analysis/configs/dialogue-analysis.yaml -p 8000
@@ -16,6 +18,8 @@ Dialogue analysis (span + categorization)
 
 Sentiment analysis (categorization)
 ------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/sentiment_analysis>`_
 
 .. code-block::
 
@@ -40,6 +44,8 @@ Summarization evaluation (likert + categorization)
 
 Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding>`_, `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
 
 .. code-block::
 
