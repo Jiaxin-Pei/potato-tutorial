@@ -45,7 +45,7 @@ Summarization evaluation (likert + categorization)
 Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
 
-`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_findingg>`_ | `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_findingg>`_ | `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_ | `Dataset <https://huggingface.co/datasets/copenlu/spiced>`_
 
 .. code-block::
 
@@ -60,7 +60,7 @@ Match findings in papers and news (likert + prescreening questions + multi-task)
 Immigration framing in tweets (Multi-schema categorization)
 ------------
 
-`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/immigration_framing>`_ | `Paper <https://aclanthology.org/2021.naacl-main.179/>`_
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/immigration_framing>`_ | `Paper <https://aclanthology.org/2021.naacl-main.179/>`_ | `Dataset <https://github.com/juliamendelsohn/framing>`_
 
 .. code-block::
 
