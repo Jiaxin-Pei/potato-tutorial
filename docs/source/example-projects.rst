@@ -42,10 +42,10 @@ Summarization evaluation (likert + categorization)
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
 
-Immigration framing in tweets (Multi-schema categorization)
+Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
 
-`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/immigration_framing>`_ | `Paper <https://aclanthology.org/2021.naacl-main.179/>`_
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_findingg>`_ | `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
 
 .. code-block::
 
@@ -54,5 +54,19 @@ Immigration framing in tweets (Multi-schema categorization)
     [Annotate] http://localhost:8000/?PROLIFIC_PID=user
     
 .. image:: ../img/match_finding.gif
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
+
+Immigration framing in tweets (Multi-schema categorization)
+------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/immigration_framing>`_ | `Paper <https://aclanthology.org/2021.naacl-main.179/>`_
+
+.. code-block::
+
+    [launch] python3 potato/flask_server.py example-projects/immigration_framing/configs/config.yaml -p 8000
+    [Annotate] http://localhost:8000/
+    
+.. image:: ../img/immigration-framing.gif
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
