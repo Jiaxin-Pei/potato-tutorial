@@ -45,7 +45,7 @@ Summarization evaluation (likert + categorization)
 Match findings in papers and news (likert + prescreening questions + multi-task)
 ------------
 
-`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding>`_, `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding>`_ | `Paper <http://www.copenlu.com/publication/2022_emnlp_wright/>`_
 
 .. code-block::
 
