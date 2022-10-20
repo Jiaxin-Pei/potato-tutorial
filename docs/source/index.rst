@@ -15,6 +15,7 @@ Contents
 .. toctree::
    quick-start
    example-projects
+   configuration
    usage
    data_format
    schemas_and_templates
