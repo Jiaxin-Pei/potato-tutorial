@@ -22,5 +22,6 @@ Contents
    user_and_collaboration
    productivity
    surveyflow
+   crowdsourcing
    annotator_stats
    open-sourcing
