@@ -4,7 +4,7 @@ Surveyflow
 Potato allows you to easily set up a series of modules traditionally used in social science surveys.
 
 
-Pre-study survey
+Pre-screening questions
 ---------------
 You could easily insert any survey questions before the annotation instances using our built-in schemas: likert, radio, checkbox, textbox, drop-down list. 
 Potato also provide templates for setting up task instructions and user consents. 
@@ -45,7 +45,7 @@ Step 2, insert the file path into the configuration file:
 
 Potato will automatically create a consent page for all the annotators when you launch it.
 
-Pre-study test
+Pre-study qualification test
 ---------------
 
 
@@ -79,7 +79,7 @@ and edit the surveyflow section in the configuration file:
                 ]
         },
 
-Post-study survey
+Post-screening questions
 ---------------
 
 .. image:: ../img/screenshots/postscreening_questions.gif
