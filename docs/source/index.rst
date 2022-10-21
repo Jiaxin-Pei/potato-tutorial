@@ -20,6 +20,7 @@ Contents
    data_format
    schemas_and_templates
    user_and_collaboration
+   task_assignment
    productivity
    surveyflow
    crowdsourcing
