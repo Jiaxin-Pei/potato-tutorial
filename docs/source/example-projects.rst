@@ -56,6 +56,23 @@ Match findings in papers and news (likert + prescreening questions + multi-task)
 .. image:: ../img/match_finding.gif
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
+   
+   
+Textual uncertainty (likert + categorization)
+------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/textual_uncertainty>`_ | `Paper <https://jiaxin-pei.github.io/project_websites/certainty/Certainty-in-Science-Communication.html>`_ | `Dataset <https://github.com/Jiaxin-Pei/Certainty-in-Science-Communication/tree/main/data/annotated_data>`_ 
+
+.. code-block::
+
+    [launch sentence-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/sentence_level.yaml -p 800
+    [launch aspect-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/aspect_level.yaml -p 800
+    [Annotate] http://localhost:8000
+    
+.. image:: ../img/textual_uncertainty.gif
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
+   
 
 Immigration framing in tweets (Multi-schema categorization)
 ------------
