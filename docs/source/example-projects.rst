@@ -65,8 +65,8 @@ Textual uncertainty (likert + categorization)
 
 .. code-block::
 
-    [launch sentence-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/sentence_level.yaml -p 800
-    [launch aspect-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/aspect_level.yaml -p 800
+    [launch sentence-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/sentence_level.yaml -p 8000
+    [launch aspect-level] python3 potato/flask_server.py example-projects/textual_uncertainty/configs/aspect_level.yaml -p 8000
     [Annotate] http://localhost:8000
     
 .. image:: ../img/textual_uncertainty.gif
