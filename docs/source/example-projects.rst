@@ -101,3 +101,4 @@ GIF Reply Appropriateness (video as label)
 
 .. image:: ../img/gif_reply.gif
     :width: 1000
+    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
