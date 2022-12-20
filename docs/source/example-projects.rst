@@ -99,5 +99,5 @@ GIF Reply Appropriateness (video as label)
     [launch] python3 potato/flask_server.py example-projects/gif_reply/configs/gif-reply.yaml -p 8000
     [Annotate] http://localhost:8000/
 
-.. image:: ../img/screenshots/gif-reply.gif
+.. image:: ../img/gif-reply.gif
     :width: 1000
