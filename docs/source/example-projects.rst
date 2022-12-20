@@ -87,3 +87,17 @@ Immigration framing in tweets (Multi-schema categorization)
 .. image:: ../img/screenshots/immigration-framing.gif
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
+
+
+GIF Reply Appropriateness (video as label)
+------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/gif_reply>`_ | `Paper <https://aclanthology.org/2021.findings-emnlp.276/>`_ | `Dataset <https://github.com/xingyaoww/gif-reply>`_
+
+.. code-block::
+
+    [launch] python3 potato/flask_server.py example-projects/gif_reply/configs/gif-reply.yaml -p 8000
+    [Annotate] http://localhost:8000/
+
+.. image:: ../img/screenshots/gif-reply.gif
+    :width: 1000
