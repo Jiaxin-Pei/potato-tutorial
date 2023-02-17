@@ -68,7 +68,7 @@ Match findings in papers and news (prestudy test)
     [launch] python3 potato/flask_server.py example-projects/match_finding_with_prestudy/configs/match_finding.yaml -p 8000
     [Annotate] http://localhost:8000/?PROLIFIC_PID=user
     
-.. image:: ../img/match_finding.gif
+.. image:: ../img/prestudy.gif
    :width: 1000
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
    
