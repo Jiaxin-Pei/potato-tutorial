@@ -47,7 +47,7 @@ Potato will automatically create a consent page for all the annotators when you 
 
 Pre-study qualification test
 ---------------
-
+Pre study test allow you to filter annotators based on their ability to answer your questions. You can set up a list of questions with groundtruth and potato will automatically generate the qualification test for you. You may check the  `example prestudy project <https://github.com/davidjurgens/potato/tree/master/example-projects/sentiment_analysis>`_ to get a rough idea of how it works.
 
 
 Attention test
