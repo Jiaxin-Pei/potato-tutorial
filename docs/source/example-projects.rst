@@ -58,6 +58,22 @@ Match findings in papers and news (likert + prescreening questions + multi-task)
    :alt: The log-in screen has an account creation button on the bottom right, circled in red.
    
    
+Match findings in papers and news (prestudy test)
+------------
+
+`yaml config <https://github.com/davidjurgens/potato/tree/master/example-projects/match_finding_with_prestudy>`_ 
+
+.. code-block::
+
+    [launch] python3 potato/flask_server.py example-projects/match_finding_with_prestudy/configs/match_finding.yaml -p 8000
+    [Annotate] http://localhost:8000/?PROLIFIC_PID=user
+    
+.. image:: ../img/match_finding.gif
+   :width: 1000
+   :alt: The log-in screen has an account creation button on the bottom right, circled in red.
+   
+   
+   
 Textual uncertainty (likert + categorization)
 ------------
 
